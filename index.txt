@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Portfolio Website</h1>
+</header>
+
+<div class="home">
+  <!-- add your own image -->
+   <img src="img_girl.jpg" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+  <h2>Hello</h2>
+  <p>Web Developer Student</p>
+</div>
+
+<div class="about fade-in">
+  <h2>About Me</h2>
+  <p>I am passionate about building websites and learning new technologies.</p>
+</div>
+
+<div class="skills fade-in">
+  <h2>Skills</h2>
+  <div class="skill-box">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+  </div>
+</div>
+
+<div class="projects fade-in">
+  <h2>Projects</h2>
+  <div class="project-card">Portfolio Website</div>
+  <div class="project-card">To-do List App</div>
+</div>
+
+<div class="contact fade-in">
+  <h2>Contact</h2>
+  <p>Email: example@gmail.com</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
